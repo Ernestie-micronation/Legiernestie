@@ -1,0 +1,11 @@
+*.aux
+*.fls
+*.log
+*.out
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.toc-ernestien
+*.toc-french
+*.toc-esperanto
+*.toc-english

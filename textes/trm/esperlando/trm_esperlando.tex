@@ -1,0 +1,75 @@
+\documentclass[fontsize=14pt, DIV=calc]{scrartcl}
+
+\usepackage[english, french]{babel}
+\usepackage{graphicx}
+
+
+\babelprovide{esperanto}
+\babelprovide[import=fr, hyphenrules = english]{ernestien}
+\babelfont[ernestien]{rm}{ErnestFont}
+\babelfont[ernestien]{sf}{ErnestFont}
+\babelfont[ernestien]{tt}{ErnestFont}
+
+\newcommand{\ern}[1]{\foreignlanguage{ernestien}{#1}}
+\newcommand{\en}[1]{\foreignlanguage{english}{#1}}
+\newcommand{\es}[1]{\foreignlanguage{esperanto}{#1}}
+
+
+
+\begin{document}
+\begin{tabular}{c c}
+    \includegraphics[scale=0.8]{esperlando.png} & \includegraphics[scale=0.35]{drapeau.png}
+\end{tabular}
+\begin{center}
+\bigskip
+\huge{
+    \es{Traktato de reciproka agnosko inter:}
+
+    \ern{pabiologîk dâ uisevrêf jakfredjâg:}
+
+    Traité de reconnaissance mutuelle entre:
+
+    \en{Treaty of mutual recognition between:}
+
+}
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\Large{
+\es{La Virtuala Princlando de Esperlando 
+
+kaj} \ern{aê}
+
+\ern{nuranjêrs ernestôg bizârg feltanîg}
+}
+
+\end{center}
+\newpage
+\es{Per ĉi tiu traktato, ni, subskribaj}
+
+\ern{kôn zîs pabiolojîk, ludî }
+
+Par ce traité, nous, soussignés
+
+\en{By this treaty, we, undersigned}
+
+\begin{center}
+    \es{Princino Alenia li Ia Reïozy-De Esperlando
+
+    kaj} \ern{aê}
+
+    \ern{dihellgô, lezamôgz ernestôg în esperlandô}
+
+\end{center}
+
+\es{deklaras ke la nacioj ke ni reprezentas reciproke agnoskas. Ni kreos ambasadejoj por ni reciproke en nia respektiva lando.}
+
+\ern{epsilonuzâng âkq zî uniî bît ludî uisenûq uisevrêq jakfredjâg. ludî diûdqq jakfredjâg lezamoî în ponî ludîg.}
+
+déclarons que les nations que nous représentons se reconnaissent mutuellement. Nous créerons des ambassades l'un pour l'autre dans nos pays respectifs.
+
+\en{declare that the nations that we represent recognize each other. We will create embassies for each other in our respective countries.}
+
+\end{document}
